@@ -27,7 +27,7 @@ layers:
   - O
   - P
   - {t: \, s: '|'}
-  - nav
+  - {t: '$$mdi:backspace-reverse-outline$$', h: nav}
   - A
   - S
   - D
@@ -39,7 +39,7 @@ layers:
   - K
   - L
   - {t: ;, s: ':'}
-  - .
+  - APO
   - $$mdi:apple-keyboard-shift$$
   - Z
   - X
