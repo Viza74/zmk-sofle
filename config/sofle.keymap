@@ -29,19 +29,6 @@
             delay-ms = <0>;                   //   10
         };
 
-        tde: tap_dance_e {
-            compatible = "zmk,behavior-tap-dance";
-            #binding-cells = <0>;
-            tapping-term-ms = <200>;
-            bindings = <&kp E>, <&kp SEMI>;
-        };
-
-        tdi: tap_dance_i {
-            compatible = "zmk,behavior-tap-dance";
-            #binding-cells = <0>;
-            tapping-term-ms = <200>;
-            bindings = <&kp I>, <&kp NUBS>;
-        };
     };
 
     conditional_layers {
