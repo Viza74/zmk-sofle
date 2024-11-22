@@ -17,13 +17,13 @@ layers:
   - $$mdi:keyboard-tab$$
   - Q
   - W
-  - E
+  - '&tde'
   - R
   - T
   - $$mdi:arrow-down-bold$$
   - Y
   - U
-  - I
+  - '&tdi'
   - O
   - P
   - {t: \, s: '|'}
@@ -236,10 +236,10 @@ layers:
   - {t: '$$mdi:backspace$$', type: backspace}
   - {t: ']', s: '}'}
   - {t: '$$mdi:transfer$$', type: trans}
-  - UNDO
-  - CUT
-  - COPY
-  - PASTE
+  - Ctl+ Z
+  - Ctl+ X
+  - Ctl+ C
+  - Ctl+ V
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:menu-right$$', s: '$$mdi:mouse$$'}
   - {t: '$$mdi:transfer$$', type: trans}
@@ -318,9 +318,9 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
+  - {type: held}
   - $$mdi:mouse-left-click-outline$$
-  - {t: '$$mdi:transfer$$', type: trans}
+  - {type: held}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
