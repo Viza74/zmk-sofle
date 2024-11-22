@@ -17,17 +17,17 @@ layers:
   - $$mdi:keyboard-tab$$
   - Q
   - W
-  - E
+  - '&tde'
   - R
   - T
   - $$mdi:arrow-down-bold$$
   - Y
   - U
-  - '&ko I'
+  - '&tdi'
   - O
   - P
   - {t: \, s: '|'}
-  - nav
+  - {t: '$$mdi:backspace-reverse-outline$$', h: nav}
   - A
   - S
   - D
@@ -39,7 +39,7 @@ layers:
   - K
   - L
   - {t: ;, s: ':'}
-  - APO
+  - .
   - $$mdi:apple-keyboard-shift$$
   - Z
   - X
