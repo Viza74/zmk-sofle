@@ -17,13 +17,13 @@ layers:
   - $$mdi:keyboard-tab$$
   - Q
   - W
-  - '&tde'
+  - E
   - R
   - T
   - $$mdi:arrow-down-bold$$
   - Y
   - U
-  - '&tdi'
+  - '&ko I'
   - O
   - P
   - {t: \, s: '|'}
