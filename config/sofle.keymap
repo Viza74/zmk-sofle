@@ -24,8 +24,8 @@
         };
 
         msc {
-            acceleration-exponent = <1>;      // 0
-            time-to-max-speed-ms = <400>;      // 500
+            acceleration-exponent = <0>;      // 0
+            time-to-max-speed-ms = <0>;      // 500
             delay-ms = <0>;                   //   10
         };
 
@@ -72,6 +72,18 @@
 
     };
 
+    macros {
+        alt_space: alt_space {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings
+                = <&macro_press &kp LALT>
+                , <&macro_tap &kp SPACE>
+                , <&macro_release &kp LALT>
+                ;
+        };
+    };
+
     conditional_layers {
         compatible = "zmk,conditional-layers";
         tri_layer {
@@ -85,7 +97,7 @@
         #sensor-binding-cells = <0>;
         bindings = <&msc SCRL_DOWN>, <&msc SCRL_UP>;
 
-        tap-ms = <20>;
+        tap-ms = <30>;
     };
 
     keymap {
@@ -110,7 +122,7 @@
 &trans      &kp GRAVE       &mkp LCLK       &mkp MCLK       &mkp RCLK       &mkp MB4           &mmv MOVE_DOWN   &kp PG_UP        &kp END          &kp UP      &kp HOME   &kp MINUS         &kp EQUAL
 &trans      &kp TILDE       &trans          &trans          &trans          &mkp MB5           &mmv MOVE_LEFT   &kp PG_DN        &kp LEFT         &kp DOWN    &kp RIGHT  &kp LEFT_BRACKET  &kp RIGHT_BRACKET
 &trans      &trans          &trans          &trans          &trans          &trans             &mmv MOVE_RIGHT  &rgb_ug RGB_BRI  &rgb_ug RGB_BRD  &kp INSERT  &kp F11    &kp F12           &trans
-&kp C_MUTE  &trans          &trans          &trans          &trans          &trans             &mkp LCLK        &trans           &trans           &trans      &trans     &trans
+&kp C_MUTE  &trans          &trans          &alt_space      &trans          &trans             &mkp LCLK        &trans           &trans           &trans      &trans     &trans
             >;
 
             display-name = "RAISE";
