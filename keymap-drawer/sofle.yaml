@@ -1,7 +1,7 @@
 layout: {qmk_keyboard: sofle/rev1}
 layers:
   BASE:
-  - $$mdi:keyboard-esc$$
+  - {t: '`', s: '~'}
   - {t: '1', s: '!'}
   - {t: '2', s: '@'}
   - {t: '3', s: '#'}
@@ -57,7 +57,7 @@ layers:
   - $$mdi:apple-keyboard-control$$
   - $$mdi:apple-keyboard-command$$
   - $$mdi:apple-keyboard-option$$
-  - $$mdi:keyboard-space$$
+  - $$mdi:keyboard-esc$$
   - RAISE
   - {t: '$$mdi:keyboard-return$$', type: enter}
   - LOWER
@@ -236,7 +236,7 @@ layers:
   - {t: '$$mdi:backspace$$', type: backspace}
   - {t: ']', s: '}'}
   - {t: '$$mdi:transfer$$', type: trans}
-  - Ctl+ Z
+  - Ctl+ Y
   - Ctl+ X
   - Ctl+ C
   - Ctl+ V
