@@ -131,11 +131,11 @@
 
         layer_2 {
             bindings = <
-&kp TILDE  &trans        &trans          &trans        &trans        &trans     &msc SCRL_DOWN   &kp F6  &kp F7  &kp F8      &kp F9     &kp F10      &kp DEL
-&trans     &trans        &trans          &trans        &trans        &trans     &msc SCRL_UP     &trans  &trans  &kp F11     &kp F12    &kp UNDER    &kp PLUS
-&trans     &trans        &trans          &trans        &trans        &trans     &msc SCRL_LEFT   &trans  &trans  &trans      &trans     &kp LBRC     &kp RBRC
-&trans     &trans        &trans          &trans        &trans        &trans     &msc SCRL_RIGHT  &trans  &trans  &sys_reset  &soft_off  &bootloader  &trans
-&trans     &trans        &trans          &trans        &trans        &trans     &mkp LCLK        &trans  &trans  &trans      &trans     &trans
+&kp TILDE  &trans        &trans          &trans        &trans        &trans     &msc SCRL_DOWN   &kp F6  &kp F7     &kp F8        &kp F9     &kp F10      &kp DEL
+&trans     &trans        &trans          &trans        &trans        &trans     &msc SCRL_UP     &trans  &kp KP_N7  &kp KP_N8     &kp KP_N9  &trans       &kp F11
+&trans     &trans        &trans          &trans        &trans        &trans     &msc SCRL_LEFT   &trans  &kp KP_N4  &kp KP_N5     &kp KP_N6  &trans       &kp F12
+&trans     &trans        &trans          &trans        &trans        &trans     &msc SCRL_RIGHT  &trans  &kp KP_N1  &kp KP_N2     &kp KP_N3  &trans       &trans
+&trans     &trans        &trans          &trans        &trans        &trans     &mkp LCLK        &trans  &kp KP_N0  &kp KP_COMMA  &trans     &trans
             >;
 
             display-name = "LOWER";
