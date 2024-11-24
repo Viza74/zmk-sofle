@@ -144,7 +144,7 @@
 
         layer_3 {
             bindings = <
-&kp GRAVE   &kp F1           &kp F2          &kp F3           &kp F4           &kp F5             &mmv MOVE_UP     &kp F6           &kp F7           &kp F8      &kp F9     &kp F10           &kp F11
+&kp ESC     &kp F1           &kp F2          &kp F3           &kp F4           &kp F5             &mmv MOVE_UP     &kp F6           &kp F7           &kp F8      &kp F9     &kp F10           &kp F11
 &trans      &kp TILDE        &mkp LCLK       &mkp MCLK        &mkp RCLK        &mkp MB4           &mmv MOVE_DOWN   &kp PG_UP        &kp HOME         &kp UP      &kp END    &kp DEL           &kp F12
 &trans      &kp LCTRL        &kp LALT        &kp LSHFT        &trans           &mkp MB5           &mmv MOVE_LEFT   &kp PG_DN        &kp LEFT         &kp DOWN    &kp RIGHT  &kp BSPC          &kp RIGHT_BRACKET
 &trans      &kp LC(Y)        &kp LC(X)       &kp LC(C)        &kp LC(V)        &trans             &mmv MOVE_RIGHT  &trans           &trans           &kp INSERT  &kp F11    &kp F12           &trans
