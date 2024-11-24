@@ -14,7 +14,7 @@ layers:
   - {t: '9', s: (}
   - '&tdoe'
   - {t: '$$mdi:backspace$$', type: backspace}
-  - $$mdi:keyboard-tab$$
+  - $$mdi:keyboard-esc$$
   - Q
   - W
   - E
@@ -27,7 +27,7 @@ layers:
   - '&tdo'
   - P
   - '&tdue'
-  - {t: '$$mdi:backspace-reverse-outline$$', h: nav}
+  - $$mdi:keyboard-tab$$
   - A
   - S
   - D
@@ -58,7 +58,7 @@ layers:
   - $$mdi:apple-keyboard-command$$
   - $$mdi:apple-keyboard-option$$
   - $$mdi:keyboard-space$$
-  - $$mdi:keyboard-esc$$
+  - {t: '$$mdi:backspace-reverse-outline$$', h: nav}
   - {t: '$$mdi:keyboard-return$$', type: enter}
   - LOWER
   - $$mdi:keyboard-space$$
@@ -222,7 +222,7 @@ layers:
   - END
   - $$mdi:backspace-reverse-outline$$
   - F12
-  - {type: held}
+  - {t: '$$mdi:transfer$$', type: trans}
   - $$mdi:apple-keyboard-control$$
   - $$mdi:apple-keyboard-option$$
   - $$mdi:apple-keyboard-shift$$
@@ -253,7 +253,7 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
+  - {type: held}
   - $$mdi:mouse-left-click-outline$$
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
@@ -287,7 +287,7 @@ layers:
   - F12
   - _
   - +
-  - {type: held}
+  - {t: '$$mdi:transfer$$', type: trans}
   - OUT USB
   - OUT BLE
   - {t: '$$mdi:transfer$$', type: trans}
@@ -318,7 +318,7 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
+  - {type: held}
   - $$mdi:mouse-left-click-outline$$
   - {type: held}
   - {t: '$$mdi:transfer$$', type: trans}
