@@ -196,7 +196,7 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   nav:
-  - $$mdi:keyboard-esc$$
+  - '~'
   - F1
   - F2
   - F3
@@ -210,7 +210,7 @@ layers:
   - F10
   - F11
   - {t: '$$mdi:transfer$$', type: trans}
-  - '~'
+  - {t: '$$mdi:transfer$$', type: trans}
   - $$mdi:mouse-left-click-outline$$
   - $$mdi:mouse-scroll-wheel$$
   - $$mdi:mouse-right-click-outline$$
@@ -223,10 +223,10 @@ layers:
   - $$mdi:backspace-reverse-outline$$
   - F12
   - {t: '$$mdi:transfer$$', type: trans}
-  - $$mdi:apple-keyboard-control$$
-  - $$mdi:apple-keyboard-option$$
   - $$mdi:apple-keyboard-shift$$
+  - $$mdi:apple-keyboard-option$$
   - {t: '$$mdi:transfer$$', type: trans}
+  - $$mdi:apple-keyboard-control$$
   - '&mkp MB5'
   - {t: '$$mdi:menu-left$$', s: '$$mdi:mouse$$'}
   - PG DN
@@ -234,7 +234,7 @@ layers:
   - $$mdi:arrow-down-bold$$
   - $$mdi:arrow-right-bold$$
   - {t: '$$mdi:backspace$$', type: backspace}
-  - {t: ']', s: '}'}
+  - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - Ctl+ Y
   - Ctl+ X
@@ -245,10 +245,10 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - Ins
-  - F11
-  - F12
   - {t: '$$mdi:transfer$$', type: trans}
-  - $$mdi:apple-keyboard-shift$$
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
