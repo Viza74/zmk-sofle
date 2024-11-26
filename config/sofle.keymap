@@ -32,41 +32,41 @@
         tde: tap_dance_e {
             compatible = "zmk,behavior-tap-dance";
             #binding-cells = <0>;
-            tapping-term-ms = <175>;
+            tapping-term-ms = <185>;
             bindings = <&kp E>, <&kp SEMI>; // e, é
         };
 
         tdi: tap_dance_i {
             compatible = "zmk,behavior-tap-dance";
             #binding-cells = <0>;
-            tapping-term-ms = <175>;
+            tapping-term-ms = <185>;
             bindings = <&kp I>, <&kp NUBS>; // i, í
         };
 
         tdue: tap_dance_ue {
             compatible = "zmk,behavior-tap-dance";
             #binding-cells = <0>;
-            tapping-term-ms = <175>;
+            tapping-term-ms = <185>;
             bindings = <&kp MINUS>, <&kp BSLH>; // ü, ű
         };
 
         tdu: tap_dance_u {
             compatible = "zmk,behavior-tap-dance";
             #binding-cells = <0>;
-            tapping-term-ms = <175>;
+            tapping-term-ms = <185>;
             bindings = <&kp U>, <&kp RIGHT_BRACKET>; // u, ú
         };
 
         tdoe: tap_dance_oe {
             compatible = "zmk,behavior-tap-dance";
             #binding-cells = <0>;
-            tapping-term-ms = <175>;
+            tapping-term-ms = <185>;
             bindings = <&kp N0>, <&kp LEFT_BRACKET>; // ö, ő
         };
         tdo: tap_dance_o {
             compatible = "zmk,behavior-tap-dance";
             #binding-cells = <0>;
-            tapping-term-ms = <175>;
+            tapping-term-ms = <185>;
             bindings = <&kp O>, <&kp EQUAL>; // o, ó
         };
 
