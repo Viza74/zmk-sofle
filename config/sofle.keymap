@@ -72,6 +72,35 @@
 
     };
 
+    combos {
+        compatible = "zmk,combos";
+        combo_co {
+            timeout-ms = <50>;
+            key-positions = <23 46>;
+            bindings = <&kp EQUAL>;
+        };
+        combo_ci {
+            timeout-ms = <50>;
+            key-positions = <22 45>;
+            bindings = <&kp NUBS>;
+        };
+        combo_cu {
+            timeout-ms = <50>;
+            key-positions = <21 44>;
+            bindings = <&kp RIGHT_BRACKET>;
+        };
+        combo_cue {
+            timeout-ms = <50>;
+            key-positions = <24 25>;
+            bindings = <&kp BSLH>;
+        };
+        combo_coe {
+            timeout-ms = <50>;
+            key-positions = <11 24>;
+            bindings = <&kp LEFT_BRACKET>;
+        };
+    };
+
     macros {
         alt_space: alt_space {
             compatible = "zmk,behavior-macro";
