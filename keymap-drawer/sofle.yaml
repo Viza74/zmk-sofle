@@ -326,11 +326,11 @@ layers:
   - '&soft_off'
   - {t: '$$mdi:backup-restore$$', type: bootloader}
 combos:
-- p: [23, 46]
+- p: [23, 36]
   k: {t: '=', s: +}
-- p: [22, 45]
+- p: [22, 35]
   k: NUBS
-- p: [21, 44]
+- p: [21, 34]
   k: {t: ']', s: '}'}
 - p: [24, 25]
   k: {t: \, s: '|'}
