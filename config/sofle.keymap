@@ -146,7 +146,7 @@
             bindings = <
 &kp TILDE   &kp F1           &kp F2          &kp F3           &kp F4           &kp F5             &mmv MOVE_UP     &kp F6           &kp F7           &kp F8      &kp F9     &kp F10           &kp F11
 &trans      &trans           &mkp LCLK       &mkp MCLK        &mkp RCLK        &mkp MB4           &mmv MOVE_DOWN   &kp PG_UP        &kp HOME         &kp UP      &kp END    &kp DEL           &kp F12
-&kp LA(TAB) &kp LSHFT        &kp LALT        &trans           &kp LCTRL        &mkp MB5           &mmv MOVE_LEFT   &kp PG_DN        &kp LEFT         &kp DOWN    &kp RIGHT  &kp BSPC          &trans
+&kp LA(TAB) &kp LALT         &kp LC(S)       &kp LCTRL        &kp LSHFT        &mkp MB5           &mmv MOVE_LEFT   &kp PG_DN        &kp LEFT         &kp DOWN    &kp RIGHT  &kp BSPC          &trans
 &trans      &kp LC(Y)        &kp LC(X)       &kp LC(C)        &kp LC(V)        &trans             &mmv MOVE_RIGHT  &trans           &trans           &kp INSERT  &trans     &trans            &trans
 &trans      &trans           &trans          &trans           &trans           &trans             &mkp LCLK        &trans           &trans           &trans      &trans     &trans
             >;
