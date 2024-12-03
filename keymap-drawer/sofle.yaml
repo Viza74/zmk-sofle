@@ -325,3 +325,14 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - '&soft_off'
   - {t: '$$mdi:backup-restore$$', type: bootloader}
+combos:
+- p: [23, 46]
+  k: {t: '=', s: +}
+- p: [22, 45]
+  k: NUBS
+- p: [21, 44]
+  k: {t: ']', s: '}'}
+- p: [24, 25]
+  k: {t: \, s: '|'}
+- p: [11, 24]
+  k: {t: '[', s: '{'}
