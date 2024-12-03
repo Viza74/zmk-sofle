@@ -115,11 +115,9 @@
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
             bindings
-                = <&macro_tap &kp END>
-                , <&macro_press &kp LSHIFT>
-                , <&macro_tap &kp HOME>
-                , <&macro_release &kp LSHIFT>
-                , <&macro_tap &kp END>
+                = <&macro_tap &kp HOME>
+                , <&macro_tap &kp LS(END)>
+                , <&macro_tap &kp DEL>
                 ;
         };
     };
