@@ -138,6 +138,10 @@
         tap-ms = <30>;
     };
 
+    &lt {
+        hold-while-undecided;
+    };
+
     keymap {
         compatible = "zmk,keymap";
 
