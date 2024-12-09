@@ -15,6 +15,10 @@
 #define ZMK_MOUSE_DEFAULT_MOVE_VAL 1200  //  600
 #define ZMK_MOUSE_DEFAULT_SCRL_VAL 20    // 10
 
+&lt {
+    hold-while-undecided;
+};
+
 / {
     behaviors {
         mmv {
@@ -138,9 +142,6 @@
         tap-ms = <30>;
     };
 
-    &lt {
-        hold-while-undecided;
-    };
 
     keymap {
         compatible = "zmk,keymap";
