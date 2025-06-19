@@ -109,6 +109,11 @@
             key-positions = <21 22>;
             bindings = <&kp UP_ARROW>;
         };
+        combo_up2 {
+            timeout-ms = <50>;
+            key-positions = <34 22>;
+            bindings = <&kp UP_ARROW>;
+        };
         combo_left {
             timeout-ms = <50>;
             key-positions = <34 35>;
@@ -122,6 +127,11 @@
         combo_down {
             timeout-ms = <50>;
             key-positions = <47 48>;
+            bindings = <&kp DOWN_ARROW>;
+        };
+        combo_down2 {
+            timeout-ms = <50>;
+            key-positions = <35 47>;
             bindings = <&kp DOWN_ARROW>;
         };
     };
