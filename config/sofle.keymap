@@ -124,26 +124,31 @@
             timeout-ms = <50>;
             key-positions = <34 22>;
             bindings = <&kp UP_ARROW>;
+            layers = < L_BASE >;
         };
         combo_left {
             timeout-ms = <50>;
             key-positions = <34 35>;
             bindings = <&kp LEFT_ARROW>;
+            layers = < L_BASE >;
         };
         combo_right {
             timeout-ms = <50>;
             key-positions = <35 36>;
             bindings = <&kp RIGHT_ARROW>;
+            layers = < L_BASE >;
         };
         combo_down {
             timeout-ms = <50>;
             key-positions = <47 48>;
             bindings = <&kp DOWN_ARROW>;
+            layers = < L_BASE >;
         };
         combo_down2 {
             timeout-ms = <50>;
             key-positions = <35 47>;
             bindings = <&kp DOWN_ARROW>;
+            layers = < L_BASE >;
         };
     };
 
