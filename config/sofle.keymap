@@ -83,31 +83,37 @@
             timeout-ms = <50>;
             key-positions = <23 36>;
             bindings = <&kp EQUAL>;
+            layers = <0>;
         };
         combo_ci {
             timeout-ms = <50>;
             key-positions = <22 35>;
             bindings = <&kp NUBS>;
+            layers = <0>;
         };
         combo_cu {
             timeout-ms = <50>;
             key-positions = <21 34>;
             bindings = <&kp RIGHT_BRACKET>;
+            layers = <0>;
         };
         combo_cue {
             timeout-ms = <50>;
             key-positions = <24 25>;
             bindings = <&kp BSLH>;
+            layers = <0>;
         };
         combo_coe {
             timeout-ms = <50>;
             key-positions = <11 24>;
             bindings = <&kp LEFT_BRACKET>;
+            layers = <0>;
         };
         combo_up {
             timeout-ms = <50>;
             key-positions = <21 22>;
             bindings = <&kp UP_ARROW>;
+            layers = <0>;
         };
         combo_up2 {
             timeout-ms = <50>;
