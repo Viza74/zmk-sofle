@@ -193,7 +193,7 @@ layers:
   - {type: held}
   - {t: '$$mdi:transfer$$', type: trans}
   - KP 0
-  - {t: '$$mdi:transfer$$', type: trans}
+  - KP DOT
   - {t: '$$mdi:transfer$$', type: trans}
   nav:
   - '~'
@@ -338,9 +338,13 @@ combos:
   k: {t: '[', s: '{'}
 - p: [21, 22]
   k: $$mdi:arrow-up-bold$$
+- p: [34, 22]
+  k: $$mdi:arrow-up-bold$$
 - p: [34, 35]
   k: $$mdi:arrow-left-bold$$
 - p: [35, 36]
   k: $$mdi:arrow-right-bold$$
 - p: [47, 48]
+  k: $$mdi:arrow-down-bold$$
+- p: [35, 47]
   k: $$mdi:arrow-down-bold$$
