@@ -151,11 +151,11 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - $$mdi:pan-down$$
-  - '&LS(N8)'
+  - {t: Sft+8, s: Sft+*}
   - KP 7
   - KP 8
   - KP 9
-  - '&LS(N9)'
+  - {t: Sft+9, s: Sft+(}
   - F11
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
@@ -164,11 +164,11 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - HOME
-  - '&LS(N7)'
+  - {t: Sft+7, s: Sft+&}
   - KP 4
   - KP 5
   - KP 6
-  - '&LS(N3)'
+  - {t: Sft+3, s: Sft+#}
   - F12
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
@@ -177,7 +177,7 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - END
-  - '&LS(N6)'
+  - {t: Sft+6, s: Sft+^}
   - KP 1
   - KP 2
   - KP 3
