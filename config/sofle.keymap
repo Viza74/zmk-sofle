@@ -17,6 +17,7 @@
 
 &lt {
     hold-while-undecided;
+    hold-trigger-on-release;
 };
 
 / {
