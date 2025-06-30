@@ -157,12 +157,12 @@ layers:
   - KP 9
   - {t: Sft+9, s: Sft+(}
   - F11
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
+  - Ctl+$$mdi:keyboard-tab$$
+  - {t: Sft+1, s: Sft+!}
+  - {t: Sft+2, s: Sft+@}
+  - {t: Sft+3, s: Sft+#}
+  - {t: Sft+4, s: Sft+$}
+  - {t: Sft+5, s: Sft+%}
   - HOME
   - {t: Sft+7, s: Sft+&}
   - KP 4
