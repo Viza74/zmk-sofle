@@ -194,7 +194,7 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - KP 0
   - KP DOT
-  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:backspace$$', type: backspace}
   ADJUST:
   - '~'
   - {h: '1', s: '$$mdi:bluetooth-connect$$'}
