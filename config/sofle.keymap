@@ -225,7 +225,7 @@
 &trans     &trans        &trans          &trans        &trans        &trans     &msc SCRL_DOWN   &kp LS(N8)    &kp KP_N7   &kp KP_N8   &kp KP_N9    &kp LS(N9)   &kp F11
 &kp LC(TAB) &kp LS(N1)   &kp LS(N2)      &kp LS(N3)    &kp LS(N4)    &kp LS(N5) &kp HOME         &kp LS(N7)    &kp KP_N4   &kp KP_N5   &kp KP_N6    &kp LS(N3)   &kp F12
 &trans     &trans        &trans          &trans        &trans        &trans     &kp END          &kp LS(N6)    &kp KP_N1   &kp KP_N2   &kp KP_N3    &trans       &trans
-&trans     &trans        &trans          &trans        &trans        &trans     &mkp LCLK        &trans        &trans      &kp KP_N0   &kp KP_DOT   &trans
+&trans     &trans        &trans          &trans        &trans        &trans     &mkp LCLK        &trans        &trans      &kp KP_N0   &kp KP_DOT   &kp BACKSPACE
             >;
 
             display-name = "LOWER";
