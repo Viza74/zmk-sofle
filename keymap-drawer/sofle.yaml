@@ -277,7 +277,7 @@ combos:
   k: {t: '[', s: '{'}
   l: [BASE]
 - p: [14, 27]
-  k: Q
+  k: '&macro_tap'
   l: [BASE]
 - p: [21, 22]
   k: $$mdi:arrow-up-bold$$
