@@ -117,10 +117,7 @@
         combo_qu {
             timeout-ms = <50>;
             key-positions = <14 27>;
-            bindings
-                = <&macro_tap &kp Q>
-                , <&macro_tap &kp U>
-                ;
+            bindings = <&macro_qu>;
             layers = < L_BASE >;
         };
         combo_up {
@@ -184,6 +181,14 @@
                 = <&macro_tap &kp HOME>
                 , <&macro_tap &kp LS(END)>
                 , <&macro_tap &kp DEL>
+                ;
+        };
+        macro_qu: macro_qu {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings
+                = <&macro_tap &kp Q>
+                , <&macro_tap &kp U>
                 ;
         };
     };
