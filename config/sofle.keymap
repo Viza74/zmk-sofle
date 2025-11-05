@@ -292,11 +292,11 @@
 
         layer_5 {
             bindings = <
-&kp F11     &kp F10      &kp F9       &kp F8        &kp F7       &kp F6       &kp UP_ARROW     &trans &trans &trans &trans &trans &trans
-&trans      &kp HOME     &kp UP       &kp END       &kp PG_UP    &none        &kp DOWN_ARROW   &trans &trans &trans &trans &trans &trans
-&trans      &kp LEFT     &kp DOWN     &kp RIGHT     &kp BSPC     &none        &kp LEFT_ARROW   &trans &trans &trans &trans &trans &trans
-&kp LSHFT   &kp LC(LEFT) &kp LC(BSPC) &kp LC(RIGHT) &kp PG_DN    &none        &kp RIGHT_ARROW  &trans &trans &trans &trans &trans &trans
-&kp C_MUTE  &kp LCTRL    &kp LEFT_GUI &kp LEFT_ALT  &kp SPACE    &kp ENTER    &kp ENTER        &trans &trans &trans &trans &trans 
+&kp F11     &kp F10      &kp F9       &kp F8        &kp F7        &kp F6       &kp UP_ARROW     &trans &trans &trans &trans &trans &trans
+&trans      &kp LC(Y)    &kp HOME     &kp UP        &kp END       &kp PG_UP    &kp DOWN_ARROW   &trans &trans &trans &trans &trans &trans
+&trans      &kp ENTER    &kp LEFT     &kp DOWN      &kp RIGHT     &kp BSPC     &kp LEFT_ARROW   &trans &trans &trans &trans &trans &trans
+&kp LSHFT   &none        &kp LC(LEFT) &kp LC(BSPC)  &kp LC(RIGHT) &kp PG_DN    &kp RIGHT_ARROW  &trans &trans &trans &trans &trans &trans
+&kp C_MUTE  &kp LCTRL    &kp LEFT_GUI &kp LEFT_ALT  &kp SPACE     &kp ENTER    &kp ENTER        &trans &trans &trans &trans &trans 
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOLUME_UP C_VOL_DN>;
