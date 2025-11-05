@@ -295,7 +295,7 @@
 &kp F11     &kp F10      &kp F9       &kp F8        &kp F7       &kp F6       &kp UP_ARROW     &trans &trans &trans &trans &trans &trans
 &trans      &kp HOME     &kp UP       &kp END       &kp PG_UP    &none        &kp DOWN_ARROW   &trans &trans &trans &trans &trans &trans
 &trans      &kp LEFT     &kp DOWN     &kp RIGHT     &kp BSPC     &none        &kp LEFT_ARROW   &trans &trans &trans &trans &trans &trans
-&kp LSHFT   &kp LC(LEFT) &kp LC(BSPC) &kp LC(RIGHT) &kp PG_DOWN  &none        &kp RIGHT_ARROW  &trans &trans &trans &trans &trans &trans
+&kp LSHFT   &kp LC(LEFT) &kp LC(BSPC) &kp LC(RIGHT) &kp PG_DN    &none        &kp RIGHT_ARROW  &trans &trans &trans &trans &trans &trans
 &kp C_MUTE  &kp LCTRL    &kp LEFT_GUI &kp LEFT_ALT  &kp SPACE    &kp ENTER    &kp ENTER        &trans &trans &trans &trans &trans 
             >;
 
