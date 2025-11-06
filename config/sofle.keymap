@@ -147,13 +147,13 @@
         };
         combo_cue_mirror {
             timeout-ms = <50>;
-            key-positions = <1 14>;
+            key-positions = <13 14>;
             bindings = <&kp BSLH>;
             layers = < L_MIRROR >;
         };
         combo_coe_mirror {
             timeout-ms = <50>;
-            key-positions = <11 24>;
+            key-positions = <1 14>;
             bindings = <&kp LEFT_BRACKET>;
             layers = < L_MIRROR >;
         };
