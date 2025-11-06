@@ -16,12 +16,12 @@
 #define ZMK_MOUSE_DEFAULT_SCRL_VAL 20    // 10
 
 #define L_BASE 0
-#define L_RAISE 1
-#define L_LOWER 2
-#define L_ADJUST 3
-#define L_MIRROR 4
-#define L_LEFTNAV 5
-#define L_GAME 6
+#define L_GAME 1
+#define L_RAISE 2
+#define L_LOWER 3
+#define L_ADJUST 4
+#define L_MIRROR 5
+#define L_LEFTNAV 6
 
 // &lt {
     // hold-while-undecided;
@@ -241,6 +241,19 @@
 
         layer_1 {
             bindings = <
+&kp GRAVE              &kp N1     &kp N2        &kp N3        &kp N4       &kp N5       &kp UP_ARROW     &kp N6      &kp N7     &kp N8         &kp N9           &kp N0           &kp BACKSPACE
+&kp ESC                &kp Q      &kp W         &kp E         &kp R        &kp T        &kp DOWN_ARROW   &kp Y       &kp U      &kp I          &kp O            &kp P            &kp MINUS
+&kp TAB                &kp A      &kp S         &kp D         &kp F        &kp G        &kp LEFT_ARROW   &kp H       &kp J      &kp K          &kp L            &kp SEMI         &kp APOS
+&kp LSHFT              &kp Z      &kp X         &kp C         &kp V        &kp B        &kp RIGHT_ARROW  &kp N       &kp M      &kp COMMA      &kp DOT          &kp FSLH         &kp ENTER
+&kp C_MUTE             &kp LCTRL  &kp LEFT_GUI  &kp LEFT_ALT  &kp SPACE    &mo L_MIRROR &kp ENTER        &mo L_LOWER &kp SPACE  &kp RIGHT_ALT  &kp RCTRL        &kp RIGHT_SHIFT
+            >;
+
+            sensor-bindings = <&inc_dec_kp C_VOLUME_UP C_VOL_DN>;
+            display-name = "GAME";
+        };
+
+        layer_2 {
+            bindings = <
 &kp TILDE   &kp F1           &kp F2          &kp F3           &kp F4           &kp F5             &mmv MOVE_UP     &kp F6           &kp F7           &kp F8       &kp F9         &kp F10           &kp F11
 &trans      &trans           &mkp LCLK       &mkp MCLK        &mkp RCLK        &mkp MB4           &mmv MOVE_DOWN   &kp PG_UP        &kp HOME         &kp UP       &kp END        &kp DEL           &kp F12
 &trans      &kp LALT         &kp LC(S)       &kp LCTRL        &kp LSHFT        &mkp MB5           &mmv MOVE_LEFT   &kp PG_DN        &kp LEFT         &kp DOWN     &kp RIGHT      &kp BSPC          &kp LC(BSPC)
@@ -252,7 +265,7 @@
             sensor-bindings = <&scroll_encoder>;
         };
 
-        layer_2 {
+        layer_3 {
             bindings = <
 &kp TILDE   &trans        &trans          &trans        &trans        &trans     &msc SCRL_UP     &kp F6        &kp F7      &kp F8      &kp F9       &kp F10         &kp BACKSPACE
 &tog L_GAME &trans        &trans          &trans        &trans        &trans     &msc SCRL_DOWN   &kp LS(N8)    &kp KP_N7   &kp KP_N8   &kp KP_N9    &kp LS(N9)      &kp F11
@@ -265,7 +278,7 @@
             sensor-bindings = <&scroll_encoder>;
         };
 
-        layer_3 {
+        layer_4 {
             bindings = <
 &kp TILDE  &bt BT_SEL 0     &bt BT_SEL 1    &bt BT_SEL 2     &bt BT_SEL 3     &bt BT_SEL 4     &mmv MOVE_UP     &kp F6  &kp F7       &kp F8     &kp F9      &kp F10     &kp F11
 &trans     &bt BT_CLR       &bt BT_CLR_ALL  &trans           &trans           &trans           &mmv MOVE_DOWN   &trans  &trans       &trans     &trans      &trans      &kp F12
@@ -278,7 +291,7 @@
             sensor-bindings = <&scroll_encoder>;
         };
 
-        layer_4 {
+        layer_5 {
             bindings = <
 &kp BACKSPACE &kp N0     &kp N9        &kp N8        &kp N7       &kp N6       &kp UP_ARROW     &kp N6      &kp N7     &kp N8         &kp N9           &kp N0           &kp BACKSPACE
 &kp MINUS     &kp P      &kp O         &kp I         &kp U        &kp Y        &kp DOWN_ARROW   &kp Y       &kp U      &kp I          &kp O            &kp P            &kp MINUS
@@ -291,7 +304,7 @@
             display-name = "MIRROR";
         };
 
-        layer_5 {
+        layer_6 {
             bindings = <
 &kp F11     &kp F10      &kp F9       &kp F8        &kp F7        &kp F6       &kp UP_ARROW     &trans &trans &trans &trans &trans &trans
 &trans      &kp LC(Y)    &kp HOME     &kp UP        &kp END       &kp PG_UP    &kp DOWN_ARROW   &trans &trans &trans &trans &trans &trans
@@ -304,17 +317,5 @@
             display-name = "LEFTNAV";
         };
 
-        layer_6 {
-            bindings = <
-&kp GRAVE              &kp N1     &kp N2        &kp N3        &kp N4       &kp N5       &kp UP_ARROW     &kp N6      &kp N7     &kp N8         &kp N9           &kp N0           &kp BACKSPACE
-&kp ESC                &kp Q      &kp W         &kp E         &kp R        &kp T        &kp DOWN_ARROW   &kp Y       &kp U      &kp I          &kp O            &kp P            &kp MINUS
-&kp TAB                &kp A      &kp S         &kp D         &kp F        &kp G        &kp LEFT_ARROW   &kp H       &kp J      &kp K          &kp L            &kp SEMI         &kp APOS
-&kp LSHFT              &kp Z      &kp X         &kp C         &kp V        &kp B        &kp RIGHT_ARROW  &kp N       &kp M      &kp COMMA      &kp DOT          &kp FSLH         &kp ENTER
-&kp C_MUTE             &kp LCTRL  &kp LEFT_GUI  &kp LEFT_ALT  &kp SPACE    &mo L_MIRROR &kp ENTER        &mo L_LOWER &kp SPACE  &kp RIGHT_ALT  &kp RCTRL        &kp RIGHT_SHIFT
-            >;
-
-            sensor-bindings = <&inc_dec_kp C_VOLUME_UP C_VOL_DN>;
-            display-name = "GAME";
-        };
     };
 };
