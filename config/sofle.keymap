@@ -127,6 +127,36 @@
             bindings = <&kp LEFT_BRACKET>;
             layers = < L_BASE >;
         };
+        combo_co_mirror {
+            timeout-ms = <50>;
+            key-positions = <15 28>;
+            bindings = <&kp EQUAL>;
+            layers = < L_MIRROR >;
+        };
+        combo_ci_mirror {
+            timeout-ms = <50>;
+            key-positions = <16 29>;
+            bindings = <&kp NUBS>;
+            layers = < L_MIRROR >;
+        };
+        combo_cu_mirror {
+            timeout-ms = <50>;
+            key-positions = <17 30>;
+            bindings = <&kp RIGHT_BRACKET>;
+            layers = < L_MIRROR >;
+        };
+        combo_cue_mirror {
+            timeout-ms = <50>;
+            key-positions = <1 14>;
+            bindings = <&kp BSLH>;
+            layers = < L_MIRROR >;
+        };
+        combo_coe_mirror {
+            timeout-ms = <50>;
+            key-positions = <11 24>;
+            bindings = <&kp LEFT_BRACKET>;
+            layers = < L_MIRROR >;
+        };
         combo_qu {
             timeout-ms = <50>;
             key-positions = <14 27>;
