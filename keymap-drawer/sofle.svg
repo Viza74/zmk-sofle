@@ -2453,14 +2453,14 @@ rect.held, rect.combo.held {
 <text x="252" y="108" class="combo shifted">}</text>
 </g>
 <g class="combo combopos-3">
-<rect rx="6" ry="6" x="70" y="71" width="28" height="26" class="combo"/>
-<text x="84" y="84" class="combo tap">\</text>
-<text x="84" y="73" class="combo shifted">|</text>
+<rect rx="6" ry="6" x="42" y="99" width="28" height="26" class="combo"/>
+<text x="56" y="112" class="combo tap">\</text>
+<text x="56" y="101" class="combo shifted">|</text>
 </g>
 <g class="combo combopos-4">
-<rect rx="6" ry="6" x="826" y="71" width="28" height="26" class="combo"/>
-<text x="840" y="84" class="combo tap">[</text>
-<text x="840" y="73" class="combo shifted">{</text>
+<rect rx="6" ry="6" x="70" y="71" width="28" height="26" class="combo"/>
+<text x="84" y="84" class="combo tap">[</text>
+<text x="84" y="73" class="combo shifted">{</text>
 </g>
 </g>
 </g>
