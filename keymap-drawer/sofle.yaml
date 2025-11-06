@@ -471,6 +471,21 @@ combos:
 - p: [11, 24]
   k: {t: '[', s: '{'}
   l: [BASE]
+- p: [15, 28]
+  k: {t: '=', s: +}
+  l: [MIRROR]
+- p: [16, 29]
+  k: NUBS
+  l: [MIRROR]
+- p: [17, 30]
+  k: {t: ']', s: '}'}
+  l: [MIRROR]
+- p: [1, 14]
+  k: {t: \, s: '|'}
+  l: [MIRROR]
+- p: [11, 24]
+  k: {t: '[', s: '{'}
+  l: [MIRROR]
 - p: [14, 27]
   k: '&macro_qu'
   l: [BASE]

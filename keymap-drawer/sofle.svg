@@ -2438,6 +2438,30 @@ rect.held, rect.combo.held {
 <rect rx="4" ry="4" x="-20" y="-24" width="40" height="40" class="key"/>
 <use href="#mdi:apple-keyboard-shift" xlink:href="#mdi:apple-keyboard-shift" x="-9" y="-13" height="18" width="18.0" class="key tap glyph mdi:apple-keyboard-shift"/>
 </g>
+<g class="combo combopos-0">
+<rect rx="6" ry="6" x="126" y="106" width="28" height="26" class="combo"/>
+<text x="140" y="119" class="combo tap">=</text>
+<text x="140" y="108" class="combo shifted">+</text>
+</g>
+<g class="combo combopos-1">
+<rect rx="6" ry="6" x="182" y="99" width="28" height="26" class="combo"/>
+<text x="196" y="112" class="combo tap">NUBS</text>
+</g>
+<g class="combo combopos-2">
+<rect rx="6" ry="6" x="238" y="106" width="28" height="26" class="combo"/>
+<text x="252" y="119" class="combo tap">]</text>
+<text x="252" y="108" class="combo shifted">}</text>
+</g>
+<g class="combo combopos-3">
+<rect rx="6" ry="6" x="70" y="71" width="28" height="26" class="combo"/>
+<text x="84" y="84" class="combo tap">\</text>
+<text x="84" y="73" class="combo shifted">|</text>
+</g>
+<g class="combo combopos-4">
+<rect rx="6" ry="6" x="826" y="71" width="28" height="26" class="combo"/>
+<text x="840" y="84" class="combo tap">[</text>
+<text x="840" y="73" class="combo shifted">{</text>
+</g>
 </g>
 </g>
 <g transform="translate(40, 2329)" class="layer-LEFTNAV">
