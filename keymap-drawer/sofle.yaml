@@ -489,24 +489,3 @@ combos:
 - p: [14, 27]
   k: '&macro_qu'
   l: [BASE]
-- p: [21, 22]
-  k: $$mdi:arrow-up-bold$$
-  l: [BASE]
-- p: [34, 22]
-  k: $$mdi:arrow-up-bold$$
-  l: [BASE]
-- p: [34, 35]
-  k: $$mdi:arrow-left-bold$$
-  l: [BASE]
-- p: [35, 36]
-  k: $$mdi:arrow-right-bold$$
-  l: [BASE]
-- p: [47, 48]
-  k: $$mdi:arrow-down-bold$$
-  l: [BASE]
-- p: [35, 47]
-  k: $$mdi:arrow-down-bold$$
-  l: [BASE]
-- p: [34, 48]
-  k: $$mdi:arrow-down-bold$$
-  l: [BASE]
