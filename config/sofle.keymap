@@ -336,10 +336,10 @@
 
         layer_6 {
             bindings = <
-&kp F11     &kp F10      &kp F9       &kp F8        &kp F7        &kp F6       &kp UP_ARROW     &trans &trans &trans &trans &trans &trans
-&trans      &kp LC(Y)    &kp HOME     &kp UP        &kp END       &kp PG_UP    &kp DOWN_ARROW   &trans &trans &trans &trans &trans &trans
-&trans      &kp ENTER    &kp LEFT     &kp DOWN      &kp RIGHT     &kp BSPC     &kp LEFT_ARROW   &trans &trans &trans &trans &trans &trans
-&kp LSHFT   &none        &kp LC(LEFT) &kp LC(BSPC)  &kp LC(RIGHT) &kp PG_DN    &kp RIGHT_ARROW  &trans &trans &trans &trans &trans &trans
+&kp F11     &kp F10      &kp F9       &kp F8        &kp F7        &kp F6       &kp UP_ARROW     &kp F6           &kp F7           &kp F8       &kp F9         &kp F10           &kp F11
+&trans      &kp LC(Y)    &kp HOME     &kp UP        &kp END       &kp PG_UP    &kp DOWN_ARROW   &kp PG_UP        &kp HOME         &kp UP       &kp END        &kp DEL           &kp F12
+&trans      &kp ENTER    &kp LEFT     &kp DOWN      &kp RIGHT     &kp BSPC     &kp LEFT_ARROW   &kp PG_DN        &kp LEFT         &kp DOWN     &kp RIGHT      &kp BSPC          &kp LC(BSPC)
+&kp LSHFT   &none        &kp LC(LEFT) &kp LC(BSPC)  &kp LC(RIGHT) &kp PG_DN    &kp RIGHT_ARROW  &delete_line     &kp LC(LEFT)     &kp LC(BSPC) &kp LC(RIGHT)  &kp INSERT        &trans
 &kp C_MUTE  &kp LCTRL    &kp LEFT_GUI &kp LEFT_ALT  &kp SPACE     &kp ENTER    &kp ENTER        &trans &trans &trans &trans &trans 
             >;
 
