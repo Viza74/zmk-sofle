@@ -143,7 +143,7 @@ layers:
   - F8
   - F9
   - F10
-  - F11
+  - {t: '$$mdi:backspace$$', type: backspace}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - $$mdi:mouse-left-click-outline$$
@@ -156,7 +156,7 @@ layers:
   - $$mdi:arrow-up-bold$$
   - END
   - $$mdi:backspace-reverse-outline$$
-  - F12
+  - F11
   - {t: '$$mdi:transfer$$', type: trans}
   - $$mdi:apple-keyboard-option$$
   - Ctl+S
@@ -169,7 +169,7 @@ layers:
   - $$mdi:arrow-down-bold$$
   - $$mdi:arrow-right-bold$$
   - {t: '$$mdi:backspace$$', type: backspace}
-  - {t: 'Ctl+$$mdi:backspace$$', type: backspace}
+  - F12
   - {t: '$$mdi:transfer$$', type: trans}
   - Ctl+Y
   - Ctl+X
@@ -273,7 +273,7 @@ layers:
   - F8
   - F9
   - F10
-  - F11
+  - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - $$mdi:bluetooth-off$$
   - BT CLR ALL
@@ -286,7 +286,7 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - F12
+  - F11
   - {t: '$$mdi:transfer$$', type: trans}
   - OUT USB
   - OUT BLE
@@ -299,7 +299,7 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
+  - F12
   - {t: '$$mdi:transfer$$', type: trans}
   - RGB OFF
   - RGB ON
@@ -403,7 +403,7 @@ layers:
   - F8
   - F9
   - F10
-  - F11
+  - {t: '$$mdi:backspace$$', type: backspace}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:backspace$$', type: backspace}
   - HOME
@@ -416,7 +416,7 @@ layers:
   - $$mdi:arrow-up-bold$$
   - END
   - $$mdi:backspace-reverse-outline$$
-  - F12
+  - F11
   - {type: held}
   - {t: '$$mdi:keyboard-return$$', type: enter}
   - $$mdi:arrow-left-bold$$
@@ -429,7 +429,7 @@ layers:
   - $$mdi:arrow-down-bold$$
   - $$mdi:arrow-right-bold$$
   - {t: '$$mdi:backspace$$', type: backspace}
-  - {t: 'Ctl+$$mdi:backspace$$', type: backspace}
+  - F12
   - $$mdi:apple-keyboard-shift$$
   - Ctl+Y
   - Ctl+$$mdi:arrow-left-bold$$
