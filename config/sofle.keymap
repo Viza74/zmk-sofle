@@ -284,9 +284,9 @@
 
         layer_2 {
             bindings = <
-&kp TILDE   &kp F1           &kp F2          &kp F3           &kp F4           &kp F5             &mmv MOVE_UP     &kp F6           &kp F7           &kp F8       &kp F9         &kp F10           &kp F11
-&trans      &trans           &mkp LCLK       &mkp MCLK        &mkp RCLK        &mkp MB4           &mmv MOVE_DOWN   &kp PG_UP        &kp HOME         &kp UP       &kp END        &kp DEL           &kp F12
-&trans      &kp LALT         &kp LC(S)       &kp LCTRL        &kp LSHFT        &mkp MB5           &mmv MOVE_LEFT   &kp PG_DN        &kp LEFT         &kp DOWN     &kp RIGHT      &kp BSPC          &kp LC(BSPC)
+&kp TILDE   &kp F1           &kp F2          &kp F3           &kp F4           &kp F5             &mmv MOVE_UP     &kp F6           &kp F7           &kp F8       &kp F9         &kp F10           &kp BACKSPACE
+&trans      &trans           &mkp LCLK       &mkp MCLK        &mkp RCLK        &mkp MB4           &mmv MOVE_DOWN   &kp PG_UP        &kp HOME         &kp UP       &kp END        &kp DEL           &kp F11
+&trans      &kp LALT         &kp LC(S)       &kp LCTRL        &kp LSHFT        &mkp MB5           &mmv MOVE_LEFT   &kp PG_DN        &kp LEFT         &kp DOWN     &kp RIGHT      &kp BSPC          &kp F12
 &trans      &kp LC(Y)        &kp LC(X)       &kp LC(C)        &kp LC(V)        &kp DEL            &mmv MOVE_RIGHT  &delete_line     &kp LC(LEFT)     &kp LC(BSPC) &kp LC(RIGHT)  &kp INSERT        &trans
 &trans      &trans           &trans          &trans           &trans           &trans             &mkp LCLK        &trans           &trans           &trans       &trans         &trans
             >;
@@ -310,9 +310,9 @@
 
         layer_4 {
             bindings = <
-&kp TILDE  &bt BT_SEL 0     &bt BT_SEL 1    &bt BT_SEL 2     &bt BT_SEL 3     &bt BT_SEL 4     &mmv MOVE_UP     &kp F6  &kp F7       &kp F8     &kp F9      &kp F10     &kp F11
-&trans     &bt BT_CLR       &bt BT_CLR_ALL  &trans           &trans           &trans           &mmv MOVE_DOWN   &trans  &trans       &trans     &trans      &trans      &kp F12
-&trans     &out OUT_USB     &out OUT_BLE    &trans           &trans           &trans           &mmv MOVE_LEFT   &trans  &trans       &trans     &trans      &trans      &trans
+&kp TILDE  &bt BT_SEL 0     &bt BT_SEL 1    &bt BT_SEL 2     &bt BT_SEL 3     &bt BT_SEL 4     &mmv MOVE_UP     &kp F6  &kp F7       &kp F8     &kp F9      &kp F10     &trans
+&trans     &bt BT_CLR       &bt BT_CLR_ALL  &trans           &trans           &trans           &mmv MOVE_DOWN   &trans  &trans       &trans     &trans      &trans      &kp F11
+&trans     &out OUT_USB     &out OUT_BLE    &trans           &trans           &trans           &mmv MOVE_LEFT   &trans  &trans       &trans     &trans      &trans      &kp F12
 &trans     &rgb_ug RGB_OFF  &rgb_ug RGB_ON  &rgb_ug RGB_EFF  &rgb_ug RGB_EFR  &rgb_ug RGB_SPI  &mmv MOVE_RIGHT  &trans  &trans       &trans     &trans      &trans      &trans
 &trans     &sys_reset       &trans          &trans           &bootloader      &trans           &mkp LCLK        &trans  &bootloader  &trans     &soft_off   &sys_reset
             >;
@@ -336,9 +336,9 @@
 
         layer_6 {
             bindings = <
-&kp F11     &kp F10      &kp F9       &kp F8        &kp F7        &kp F6       &kp UP_ARROW     &kp F6           &kp F7           &kp F8       &kp F9         &kp F10           &kp F11
-&trans      &kp BSPC     &kp HOME     &kp UP        &kp END       &kp PG_UP    &kp DOWN_ARROW   &kp PG_UP        &kp HOME         &kp UP       &kp END        &kp DEL           &kp F12
-&trans      &kp ENTER    &kp LEFT     &kp DOWN      &kp RIGHT     &kp BSPC     &kp LEFT_ARROW   &kp PG_DN        &kp LEFT         &kp DOWN     &kp RIGHT      &kp BSPC          &kp LC(BSPC)
+&kp F11     &kp F10      &kp F9       &kp F8        &kp F7        &kp F6       &kp UP_ARROW     &kp F6           &kp F7           &kp F8       &kp F9         &kp F10           &kp BACKSPACE
+&trans      &kp BSPC     &kp HOME     &kp UP        &kp END       &kp PG_UP    &kp DOWN_ARROW   &kp PG_UP        &kp HOME         &kp UP       &kp END        &kp DEL           &kp F11
+&trans      &kp ENTER    &kp LEFT     &kp DOWN      &kp RIGHT     &kp BSPC     &kp LEFT_ARROW   &kp PG_DN        &kp LEFT         &kp DOWN     &kp RIGHT      &kp BSPC          &kp F12
 &kp LSHFT   &kp LC(Y)    &kp LC(LEFT) &kp LC(BSPC)  &kp LC(RIGHT) &kp PG_DN    &kp RIGHT_ARROW  &delete_line     &kp LC(LEFT)     &kp LC(BSPC) &kp LC(RIGHT)  &kp INSERT        &trans
 &kp C_MUTE  &kp LCTRL    &kp LEFT_GUI &kp LEFT_ALT  &kp SPACE     &kp ENTER    &kp ENTER        &trans           &trans           &trans       &trans         &trans 
             >;
